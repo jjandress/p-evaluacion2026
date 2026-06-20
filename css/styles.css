@@ -1,9 +1,3 @@
-/* =====================================================
-   styles.css — TAWENO SUSHI
-   Completa los estilos según el mockup adjunto
-   ===================================================== */
-
-/* Reset base */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -19,9 +13,11 @@ img {
   max-width: 100%;
 }
 
-/* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 140rem;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -67,14 +63,6 @@ body {
   padding: 0.6rem 1.6rem;
   border-radius: 0.6rem;
   text-decoration: none;
-}
-
-.art-nosotros {
-  display: flex;
-}
-
-.forma {
-  display: flex;
 }
 
 .header-info {
@@ -135,6 +123,266 @@ body {
   padding: 1rem 1.8rem;
   border-radius: 0.6rem;
   text-decoration: none;
+}
+
+.art-nmenu {
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.sec-nmenu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+
+.sec-nmenu span {
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.sec-nmenu h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: .5rem 0 0 0;
+}
+
+.sec-nmenu a {
+  color: #555555;
+  font-size: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+  text-decoration: none;
+}
+
+.sec-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.sec-tarjetasp {
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  flex-basis: 24%;
+  overflow: hidden;
+}
+
+.sec-tarjetaspi {
+  padding: 1.2rem;
+}
+
+
+.sec-tarjetasp img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec-tarjetasp h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+.sec-tarjetasp p {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.sec-tarjetaspi-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-tarjetaspi-btn span {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.sec-tarjetaspi-btn button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: .5rem;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-lpedidos {
+  display: flex;
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  border-bottom: 0.1rem solid #e0ddd5;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sec-lpedidos1 {
+  flex-basis: 28rem;
+  flex-shrink: 0;
+  margin-right: 4.8rem;
+}
+
+.sec-lpedidos1 span {
+  color: #c0392b;
+  font-size: 1rem;
+}
+
+.sec-lpedidos1 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+.sec-lpedidos1 p {
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.7;
+}
+
+.sec-lpedidos2 {
+  flex: 1;
+}
+
+.sec-lpedidos2 img {
+  height: 5.2rem;
+  width: 5.2rem;
+  object-fit: cover;
+  border-radius: .8rem;
+  margin-right: 1.4rem;
+}
+
+.lpedidos2-n {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.lpedidos2-d {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+.lpedidos2-p {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.lpedidos2-c {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.lpedidos2-item {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.lpedidos2-item3 {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.lpedidos2-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta {
+  margin-left: auto;
+  text-align: center;
+}
+
+.art-sobrenos {
+  display: flex;
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-texto {
+  flex-basis: 45%;
+}
+
+.sec-texto span {
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: .6rem;
+}
+
+.sec-texto h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+  margin-top: 1rem;
+}
+
+.sec-texto p {
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.sec-estadis {
+  flex-basis: 45%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.estadis-item {
+  flex-basis: 33.33%;
+  background-color: #ffffff;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.estadis-item span{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.estadis-item small{
+  font-size: 1.1rem;
+  color: #555555;
+  margin-top: .4rem;
+}
+
+.borderr {
+  border-right: 0.1rem solid #e0ddd5;
+}
+
+.art-nosotros {
+  display: flex;
+}
+
+.forma {
+  display: flex;
 }
 
 footer {
